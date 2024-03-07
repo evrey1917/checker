@@ -13,6 +13,6 @@ TEST(MINUS, int_double_TEST) {
     EXPECT_EQ(minus(3, 1), 2);
 }
 TEST(MUL, int_double_TEST) {
-    EXPECT_EQ(minus(1.2, 1.0), 1.2);
-    EXPECT_EQ(minus(2, 1), 2);
+    EXPECT_EQ(mul(1.2, 1.0), 1.2);
+    EXPECT_EQ(mul(2, 1), 2);
 }
