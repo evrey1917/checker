@@ -13,4 +13,4 @@ int main() {
     const unsigned i = C<5, 2>::value; // 10
     return 0;
 }
-//  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
+//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
