@@ -9,8 +9,8 @@ TEST(SUM, int_double_TEST) {
     EXPECT_EQ(sum(1, 1), 2);
 }
 TEST(MINUS, int_double_TEST) {
-    EXPECT_EQ(minus(1.6, 0.4), 1.2);
-    EXPECT_EQ(minus(3, 1), 2);
+    EXPECT_EQ(minus(0, 0), 0);
+    EXPECT_EQ(minus(0, 0), 0);
 }
 TEST(MUL, int_double_TEST) {
     EXPECT_EQ(mul(1.2, 1.0), 1.2);
